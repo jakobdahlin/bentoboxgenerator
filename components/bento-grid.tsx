@@ -284,7 +284,7 @@ const BentoItemComponent = ({
     {isSelected && (
   <div
     onMouseDown={handleResize}
-    className="absolute bottom-0 right-0 w-6 h-6 bg-white/20 hover:bg-white/30 rounded-br-md rounded-tl-md flex items-center justify-center z-30 cursor-se-resize hidden md:flex"
+    className="absolute bottom-0 right-0 w-6 h-6 bg-white/20 hover:bg-white/30 rounded-br-md rounded-tl-md items-center justify-center z-30 cursor-se-resize hidden md:flex"
   >
     <ArrowDownRight className="h-4 w-4 text-white" />
   </div>
